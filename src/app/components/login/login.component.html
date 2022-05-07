@@ -1,0 +1,45 @@
+ <!-- Breadcrumb Section Begin -->
+<div class="container-fluid" id="breadcrumb-section"> 
+    <div class="container">
+        <p id="breadcrumb"><a routerLink="/home" id="space"><i id="space" class="fa fa-home"></i>Trang chủ</a>/<a routerLink="/products" id="space">Sản phẩm</a>/<a id="space">Đăng nhập</a></p>
+    </div>
+</div>
+<!-- Breadcrumb Form Section Begin -->
+
+<!-- Register Section Begin -->
+<div class="register-login-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="login-form">
+                    <h2>Đăng nhập</h2>
+                    <form action="#">
+                        <div class="group-input">
+                            <label for="username">Tên đăng nhập hoặc Email *</label>
+                            <input type="text" id="username">
+                        </div>
+                        <div class="group-input">
+                            <label for="pass">Mật khẩu *</label>
+                            <input type="text" id="pass">
+                        </div>
+                        <div class="group-input gi-check">
+                            <div class="gi-more">
+                                <label for="save-pass">
+                                    Nhớ mật khẩu
+                                    <input type="checkbox" id="save-pass">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <a routerLink="#" class="forget-pass">Quên mật khẩu ?</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="site-btn login-btn">Đăng Nhập</button>
+                    </form>
+                    <div class="switch-login">
+                        <a routerLink="/register" class="or-login">Hoặc tạo tài khoản mới</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Register Form Section End -->

@@ -1,0 +1,34 @@
+#about{
+    line-height: 2.0;
+}
+.title{
+    margin-top:15px;
+    margin-bottom: 30px;
+    font-size:25px;
+    font-weight:bold;
+}
+.main-div{
+    border-left: 6px solid #f2f2f2;
+    height: 60px;
+    margin-top:25px;
+    margin-bottom: 20px;
+}
+.main-title{
+    font-size:25px;
+    font-weight:bold;color: #66c2ff;
+    margin-left: 20px;
+    padding-top:10px;
+}
+#red-text{
+    color:#ff6666; 
+    font-weight: bold;
+}
+#bold-text{
+    font-weight: bold;
+}
+.banner{
+    object-fit: cover;
+}
+#italic-text{
+    font-style: italic;
+}

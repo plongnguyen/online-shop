@@ -1,0 +1,20 @@
+<div class="container-fluid" id="breadcrumb-section"> 
+    <div class="container" *ngIf="loaisp">
+        <p id="breadcrumb"><a routerLink="/home" id="space"><i id="space" class="fa fa-home"></i>Trang chủ</a>/<a routerLink="products" id="space">Sản phẩm</a>/<a id="space">{{loaisp.tenloai}}</a></p>
+    </div>
+</div>
+<section class="section-name padding-y-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" *ngFor="let sp of dssp">
+                <div class="card card-product-grid">
+                    <a [routerLink]="['/detail', sp.id_sp ]" class="img-wrap"> <img src="assets/images/{{sp.hinhanh}}"> </a>
+                    <figcaption class="info-wrap">
+                        <a [routerLink]="['/detail', sp.id_sp ]" class="title">{{sp.tensp}}</a>
+                        <div class="price mt-1">{{sp.dongia | currency:"VND"}}</div>
+                    </figcaption>
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>
